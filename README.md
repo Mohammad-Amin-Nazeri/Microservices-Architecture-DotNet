@@ -91,7 +91,7 @@ Microservices-Architecture-DotNet/
 The repository includes Docker Compose configuration for the application services and supporting infrastructure such as MongoDB, Redis, PostgreSQL, SQL Server, RabbitMQ, pgAdmin and Portainer. fileciteturn157file0
 
 ```bash
-docker compose up --build
+docker compose -f docker-compose.yml -f docker-compose.override.yml up -d --build
 ```
 
 ## ⭐ Highlights
@@ -106,7 +106,10 @@ docker compose up --build
 
 **Mohammad Amin Nazeri**
 
-- GitHub: https://github.com/Mohammad-Amin-Nazeri
-- LinkedIn: https://www.linkedin.com/in/mohammad-amin-nazeri/
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammad-amin-nazeri)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mohammad-Amin-Nazeri)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E2?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Aminn02)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/mohammad_amin_nazeri/)
 
 ⭐ If you find the project useful, consider giving it a star.
